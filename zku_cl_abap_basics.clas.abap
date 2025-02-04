@@ -290,7 +290,7 @@ CLASS zku_cl_abap_basics IMPLEMENTATION.
 * NEXT: Interfaces, Exceptions, Tests und umfassende objektorientierte Anwendung als Abschluss
 
     DATA:
-      go_car4  LIKE ,
+      go_car4  LIKE go_car3,
       go_truck TYPE REF TO zku_cl_truck.
 
 
