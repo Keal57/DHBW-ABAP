@@ -317,7 +317,7 @@ CLASS zku_cl_abap_basics IMPLEMENTATION.
     "BW-Kalender erstellen
     "---------------------------------------------------
     TRY.
-        DATA(calendar) = cl_fhc_calendar_runtime=>create_factorycalendar_runtime( 'Z_01' ).
+        DATA(calendar) = cl_fhc_calendar_runtime=>create_factorycalendar_runtime( 'SAP_DE_BW' ).
       CATCH cx_fhc_runtime.
         RETURN.
     ENDTRY.
